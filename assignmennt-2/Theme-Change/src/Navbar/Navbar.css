@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: background-color 0.3s ease;
+}
+
+.navbar.light {
+    background-color: #f0f0f0;
+    color: #000;
+}
+
+.navbar.dark {
+    background-color: teal;
+    color: #fff;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    margin: 0 20px;
+    list-style-type: none;
+}
