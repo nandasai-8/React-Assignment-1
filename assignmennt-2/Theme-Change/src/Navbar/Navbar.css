@@ -33,3 +33,7 @@ ul li {
     margin: 0 20px;
     list-style-type: none;
 }
+
+.image img {
+    width: 10rem;
+}
